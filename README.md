@@ -1,3 +1,9 @@
+# FocusUno
+My very first MERN project, Focus Uno, is a to-do app that enables users to log a list of things they need to finish. The design is kept simple and user-friendly
+
+Test Login credentials <br/>
+  Email: focusUnoIsNow@gmail.com <br/>
+  Password: 123456
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run both`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
