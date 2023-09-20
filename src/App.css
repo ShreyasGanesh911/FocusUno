@@ -1,0 +1,110 @@
+@media only screen and (max-width: 855px) {
+  #taskContainer{
+    width: 98vw !important;
+  }
+  #modalContainer{
+    height: auto;
+    width: 85vw;
+}
+  #taskBox{
+   flex-direction: column;
+   margin-top: 5vw;
+   
+  }
+  #task{
+    padding: 5vw !important;
+    margin-top: 10vw !important;
+  }
+  #title{
+    height: 8vh !important;
+  }
+  #loginForm{
+    width: 75vw !important;
+    padding: 25px !important;
+  }
+  #loginBtn{
+    margin-right: 10vw !important;
+  }
+  #headingAbout{
+    font-size: 15vw !important;
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+html{
+  overflow-x: hidden;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.displayFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskDiv{
+  
+  background-color: red;
+}
+     
+#loginPage,#signupPage{
+  background-image: url('./3431856.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#loginForm ::placeholder{
+  color: rgba(255, 255, 255, 0.308);
+}
+.modalWrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(189,189,189,0.9);
+}
+.modalContainer{
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  border-radius:18px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
