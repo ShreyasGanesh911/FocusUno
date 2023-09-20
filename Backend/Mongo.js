@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const id = 'mongodb+srv://shreyasganesh911:focusUno@cluster0.gbvnurn.mongodb.net/'
+const id ='mongodb+srv://shreyasganesh911:focusUno@cluster0.gbvnurn.mongodb.net/'
 const param ={useNewUrlParser:true,useUnifiedTopology:true}
 const connectMdb =()=>{ 
     try{
